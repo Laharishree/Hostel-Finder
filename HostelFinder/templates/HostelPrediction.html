@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>price Prediction</title>
+    <style>
+      .centered {
+          position: absolute;
+          font-weight: 1000;
+          font-size: 50px;
+          top: 40%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+          /* Style the form container */
+          .form-container {
+            font-family: 'Poppins',sans-serif;
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ff9006;
+            border-radius: 5px;
+            background-color: #ff9006;
+          }
+    
+          /*h1 */
+          h1{
+            color: white;
+          }
+    
+          /* Style the form labels */
+          label {
+            display: inline-block;
+            margin-bottom: 10px;
+            color: white;
+          }
+    
+          /* Style the form input fields */
+          input[type="text"],
+          input[type="number"],
+          select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+            box-sizing: border-box;
+          }
+    
+
+          .button {
+            background-color: white;
+            color: black;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+
+    
+          /* Style the form button on focus */
+          button:focus {
+            outline: none;
+          }
+      
+  </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand text-warning" href="#">Hostel Finder</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" >
+          <a class="nav-link active" href="/home">Home</a>
+          <a class="nav-link" href="/pricePrediction">Price Prediction</a>
+          <a class="nav-link" href="#">Hostel Recommendation</a>
+          <a class="nav-link" href="#">Hostel Recommendation</a>
+          
+          <button type="button" class="btn btn-warning my-2 my-lg-0" style="float: right"><a class="nav-link" href="{% url 'logout'%}">Logout</a></button>
+
+        </div>
+      </div>
+    </nav>
+    <div>
+    <img src="https://media.istockphoto.com/id/1414156193/photo/modern-college-dorm-room-with-cardboard-boxes-and-luggages.jpg?b=1&s=170667a&w=0&k=20&c=sZ3qh4FWpc12sOBb-Pw1KtEmPHhXgiIM-H8PmbD2uio=" alt="Snow" style="width:100%;height:400px">
+    <div class="centered text-warning">Hostel/PG Recommendation using Location and user preferences</div>
+    
+
+    {% comment %} form start {% endcomment %}
+    <div class="form-container">
+      <form action="HostelRecom" method="post">
+        {% csrf_token %} 
+        <h1 class="text-canter" style="color:white">Hostel/PG Recommendation</h1>
+        <label for="Location">Location</label>
+        <input type="text" id="Location" name="Location"placeholder="Enter Location" required>
+
+        <label for="price">price</label>
+        <input type="number" id="price" name="price" placeholder="Enter price" required>
+
+        <label for="wifi">wifi</label>
+        <select id="wifi" name="wifi" required>
+          <option value="">Select an option</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+
+        <label for="ac">AC</label>
+        <select id="ac" name="ac" required>
+          <option value="">Select an option</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+
+        <label for="laundry">Laundry</label>
+        <select id="laundry" name="laundry" required>
+          <option value="">Select an option</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+
+        <label for="security">Security</label>
+        <select id="security" name="security" required>
+          <option value="">Select an option</option>
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+
+        <label for="rating">rating</label>
+        <input type="number" id="rating" name="rating" min=0 max=5 placeholder="Enter rating out of 5" required>
+
+     
+        <br>
+        <button class="button"  type="submit">Predict</button>
+      </form>
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
