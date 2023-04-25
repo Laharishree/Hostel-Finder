@@ -46,11 +46,34 @@ def HostelRecom(request):
         
         with open("HostelFinder/static/mydata.json", "w") as final:
             final.write(hostelsData)
+        # Example usage
+        to = 'sthuthi.ss48@gmail.com'
+        subject = 'Final Year Project'
+        body = 'Welcome to our project, Hostel Finder'
+        send_email(to, subject, body)
+        
          
                 
 
         return render(request,"HostelResult.html",{"data":Hostel})
         # JsonResponse({'hostels': recommended_hostels})
+import smtplib
+
+def send_email(to, subject, body):
+    # Set up the connection to the email server
+    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server.starttls()
+    server.login('laharishree.s@gmail.com', 'Lahari@123')
+
+    # Create the email message
+    message = f"Subject: {subject}\n\n{body}"
+
+    # Send the email
+    server.sendmail('laharishree.s@gmail.com', to, message)
+
+    # Close the connection to the email server
+    server.quit()
+
 
 
         
