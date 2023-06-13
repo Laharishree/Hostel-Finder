@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-myh9ploe$n^fd#w783+#!rg26b4hy*rg%wr7lte%zc6wuqdy2w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "app1","pricePrediction",
+    "app1","pricePrediction","sslserver"
 ]
 
 MIDDLEWARE = [

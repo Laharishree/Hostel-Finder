@@ -3,6 +3,11 @@ from joblib import load
 import numpy
 import pandas as pd
 from geopy.geocoders import Nominatim
+from django.shortcuts import render
+from selenium import webdriver
+import folium
+from bs4 import BeautifulSoup as BS
+
 location_Connection=Nominatim(user_agent="geoapiExercise")
 
 
@@ -37,25 +42,48 @@ def HostelRecom(request):
         laundry = int(data.get('laundry'))
         security = int(data.get('security'))
         rating = float(data.get('rating'))
+        print(latitude, longitude, price, wifi, ac, laundry, security, rating)
         
         recommended_hostels = recommend_hostels(latitude, longitude, price, wifi, ac, laundry, security, rating)
-        recommended_hostels = recommended_hostels[['Hostel_name', 'price', 'Rating','latitude','longitude',"BusStop","Distance"]]
+        recommended_hostels = recommended_hostels[['Hostel_name',"address", 'price', 'Rating','latitude','longitude',"BusStop","Distance","EmbeddedMap"]]
         Hostel = recommended_hostels.to_dict(orient='records')
+
         
-        hostelsData=json.dumps(Hostel,indent=2)
+
+
+
+        map_center = [latitude,longitude]
+        map_zoom = 12
+        map_obj = folium.Map(location=map_center, zoom_start=map_zoom)
+        for i in Hostel:
+            folium.Marker([i.get("latitude"),i.get("longitude")],popup =i.get("Hostel_name")).add_to(map_obj)
         
-        with open("HostelFinder/static/mydata.json", "w") as final:
-            final.write(hostelsData)
+        map_obj.save("E:/Hostel-Finder/HostelFinder/templates/HostelResultFinal.html")
+
+        
         # Example usage
-        to = 'sthuthi.ss48@gmail.com'
-        subject = 'Final Year Project'
-        body = 'Welcome to our project, Hostel Finder'
-        send_email(to, subject, body)
+        to =data.get("email")
+        subject = 'Hostel/PG Recommendation'
+        body = ""
+        for i in Hostel:
+            body+="Hostel Name:"
+            body+=i["Hostel_name"]+"\n"
+            body+="Price:"
+            body+="\n"+str(i["price"])+"\n"
+            body+="Rating"
+            body+="\n"+str(i["Rating"])+"\n"
+            body+="view on map: "
+            body+=i["EmbeddedMap"]
+            body+="\n\n"
+        send_email(to,subject,body)
+        
+    
+        
         
          
                 
 
-        return render(request,"HostelResult.html",{"data":Hostel})
+    return render(request,"HostelResult.html",{"data":Hostel,})
         # JsonResponse({'hostels': recommended_hostels})
 import smtplib
 
@@ -63,16 +91,20 @@ def send_email(to, subject, body):
     # Set up the connection to the email server
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('laharishree.s@gmail.com', 'Lahari@123')
+    server.login('hostelfinder2023@gmail.com', 'gvppampqnvbgjgow')
 
     # Create the email message
     message = f"Subject: {subject}\n\n{body}"
 
     # Send the email
-    server.sendmail('laharishree.s@gmail.com', to, message)
+    server.sendmail('hostelfinder2023@gmail.com', to, message)
 
     # Close the connection to the email server
     server.quit()
+
+def MapDirect(request):
+        return render(request,"HostelResultFinal.html")
+
 
 
 

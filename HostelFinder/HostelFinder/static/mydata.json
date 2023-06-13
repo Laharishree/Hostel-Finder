@@ -1,605 +1,263 @@
 [
   {
-    "Hostel_name": "OM Sai Lakshmi PG",
-    "price": 5000,
+    "Hostel_name": "SRI GURURAGHAVENDRA PG for BOYS",
+    "price": 4500,
     "Rating": 5.0,
-    "latitude": 12.92400256,
-    "longitude": 77.56070052,
-    "BusStop": "Devegowda Petrol Bunk,BANASHANKARI 3RD STAGE,BESIDE BIG MEGA MART",
-    "Distance": 0.14
-  },
-  {
-    "Hostel_name": "Rentorio Hostel",
-    "price": 8000,
-    "Rating": 5.0,
-    "latitude": 12.88128791,
-    "longitude": 77.59642657,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Covie Bannerghatta 185 Paying Guest/Hostels",
-    "price": 12000,
-    "Rating": 5.0,
-    "latitude": 12.87566582,
-    "longitude": 77.60382217,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "SA PG",
-    "price": 6500,
-    "Rating": 5.0,
-    "latitude": 12.93052602,
-    "longitude": 77.5951554,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Venkateshwara P G",
-    "price": 6000,
-    "Rating": 5.0,
-    "latitude": 12.93757084,
-    "longitude": 77.55883037,
+    "latitude": 12.91484944,
+    "longitude": 77.56247357,
     "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "Sri Balaji Luxurious Ladies Pg",
-    "price": 5000,
+    "Hostel_name": "Castle Ladies PG",
+    "price": 4500,
     "Rating": 4.9,
-    "latitude": 12.91416,
-    "longitude": 77.5857619,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Star PG",
-    "price": 6000,
-    "Rating": 4.9,
-    "latitude": 12.90605084,
-    "longitude": 77.60386381,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "S A PG FOR GENTS",
-    "price": 7000,
-    "Rating": 4.9,
-    "latitude": 12.88716514,
-    "longitude": 77.60038333,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Sri Vinayaka PG",
-    "price": 5000,
-    "Rating": 4.9,
-    "latitude": 12.9008582,
-    "longitude": 77.5864443,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "V B R LADIES P G",
-    "price": 12000,
-    "Rating": 4.9,
-    "latitude": 12.89154578,
-    "longitude": 77.59133408,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Anagha Girls PG",
-    "price": 10000,
-    "Rating": 4.9,
-    "latitude": 12.91384236,
-    "longitude": 77.5705547,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Anagha Girls PG",
-    "price": 7000,
-    "Rating": 4.9,
-    "latitude": 12.97296006,
-    "longitude": 77.55619899,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Ss Comforts Gents Pg",
-    "price": 6000,
-    "Rating": 4.9,
-    "latitude": 12.90145844,
-    "longitude": 77.6011616,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Sai Eshwar Pg For Ladies",
-    "price": 6000,
-    "Rating": 4.9,
-    "latitude": 12.91805916,
-    "longitude": 77.5945141,
+    "latitude": 12.94375018,
+    "longitude": 77.54002154,
     "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
     "Distance": 0.04
   },
   {
     "Hostel_name": "ELITE GIRLS PG / HOSTEL",
-    "price": 5700,
+    "price": 4700,
     "Rating": 4.9,
-    "latitude": 12.910611,
-    "longitude": 77.564789,
+    "latitude": 12.94084024,
+    "longitude": 77.58229152,
     "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
     "Distance": 0.07
   },
   {
-    "Hostel_name": "Pg ACCOMMODATION for boys",
-    "price": 6000,
-    "Rating": 4.8,
-    "latitude": 12.91267428,
-    "longitude": 77.56298855,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Hive Hostels",
-    "price": 5000,
-    "Rating": 4.8,
-    "latitude": 12.87814982,
-    "longitude": 77.59774551,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "SLN Homes Ladies Hostel",
-    "price": 5000,
-    "Rating": 4.8,
-    "latitude": 12.88268175,
-    "longitude": 77.59549794,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Chegus Serene",
-    "price": 8000,
-    "Rating": 4.7,
-    "latitude": 12.93932756,
-    "longitude": 77.56733726,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Anagha Ladies PG",
-    "price": 5000,
-    "Rating": 4.7,
-    "latitude": 12.88146875,
-    "longitude": 77.59745814,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Sri Sai Residence For Ladies",
-    "price": 10000,
-    "Rating": 4.7,
-    "latitude": 12.922259,
-    "longitude": 77.48593087,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Lohitha Girl's PG",
-    "price": 6000,
+    "Hostel_name": "Shree Vigneshwara Luxuries",
+    "price": 4000,
     "Rating": 4.6,
-    "latitude": 12.92745576,
-    "longitude": 77.55894558,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Ganapa's Boys PG",
-    "price": 5000,
-    "Rating": 4.6,
-    "latitude": 12.97200805,
-    "longitude": 77.54959699,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Flourish Luxury Ladies Pg",
-    "price": 7000,
-    "Rating": 4.5,
-    "latitude": 12.91289268,
-    "longitude": 77.57037174,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Shree Bhargavi Luxurious PG",
-    "price": 7000,
-    "Rating": 4.5,
-    "latitude": 12.91955292,
-    "longitude": 77.59512189,
+    "latitude": 12.89782028,
+    "longitude": 77.58636274,
     "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "SHIRIDI SAI GENTS PG",
-    "price": 8000,
-    "Rating": 4.5,
-    "latitude": 12.91927838,
-    "longitude": 77.59133129,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Vbs Pg For Gents",
-    "price": 7000,
-    "Rating": 4.5,
-    "latitude": 12.91399329,
-    "longitude": 77.59488964,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Good Lands Luxury Pg",
-    "price": 6000,
-    "Rating": 4.5,
-    "latitude": 12.92391674,
-    "longitude": 77.50586346,
+    "Hostel_name": "Keerthi PG For Ladies",
+    "price": 4500,
+    "Rating": 4.4,
+    "latitude": 12.93671315,
+    "longitude": 77.58062621,
     "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "RN Boys Pg",
-    "price": 5000,
-    "Rating": 4.5,
-    "latitude": 12.91178178,
-    "longitude": 77.56661076,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Shree Nideshwara Ladies Pg",
-    "price": 5000,
-    "Rating": 4.5,
-    "latitude": 12.9161871,
-    "longitude": 77.58639781,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "The Beehive Hostel Luxury mens PG",
-    "price": 6000,
+    "Hostel_name": "SMP Group of PGs",
+    "price": 4500,
     "Rating": 4.4,
-    "latitude": 12.924089,
-    "longitude": 77.571722,
-    "BusStop": "Devegowda Petrol Bunk,BANASHANKARI 3RD STAGE,BESIDE BIG MEGA MART",
-    "Distance": 0.14
+    "latitude": 12.882913,
+    "longitude": 77.54605,
+    "BusStop": "Raghuvanahalli Cross",
+    "Distance": 0.21
   },
   {
-    "Hostel_name": "Hoysala P.G. Hostel",
-    "price": 8000,
-    "Rating": 4.4,
-    "latitude": 12.93198058,
-    "longitude": 77.54515334,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "KEERTHI LADIES PG",
-    "price": 5000,
-    "Rating": 4.4,
-    "latitude": 12.9256782,
-    "longitude": 77.57248784,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Durga PG & Hostel",
-    "price": 6500,
-    "Rating": 4.4,
-    "latitude": 12.93074995,
-    "longitude": 77.57189961,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Shri Shyam Vaishnavi Gents P G",
-    "price": 5500,
-    "Rating": 4.4,
-    "latitude": 12.91046998,
-    "longitude": 77.58166063,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "The Beehive Hostel Luxury mens PG",
-    "price": 6500,
-    "Rating": 4.4,
-    "latitude": 12.92420664,
-    "longitude": 77.57385514,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Keerthi sai nest ladies pg",
-    "price": 6500,
+    "Hostel_name": "Sai Sthri Raksha Ladies Pg",
+    "price": 4500,
     "Rating": 4.3,
-    "latitude": 12.90655104,
-    "longitude": 77.58001781,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "myroomie-Erica Girls PG / Hoste",
-    "price": 7000,
-    "Rating": 4.3,
-    "latitude": 12.91434748,
-    "longitude": 77.56976917,
+    "latitude": 12.92539447,
+    "longitude": 77.48518074,
     "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "Jayanthi Luxury PG for Girl",
-    "price": 5000,
-    "Rating": 4.3,
-    "latitude": 12.92564699,
-    "longitude": 77.58039685,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Flourish Paying Guest For",
-    "price": 6000,
-    "Rating": 4.3,
-    "latitude": 12.90837578,
-    "longitude": 77.57299769,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Shivrang PG For Gents",
-    "price": 5000,
+    "Hostel_name": "Swathi Luxuries Pg For Women",
+    "price": 4500,
     "Rating": 4.2,
-    "latitude": 12.88378585,
-    "longitude": 77.57231974,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "home town paying guest",
-    "price": 6500,
-    "Rating": 4.2,
-    "latitude": 12.9964924,
-    "longitude": 77.61714221,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Stanza Living Anamur House",
-    "price": 6000,
-    "Rating": 4.2,
-    "latitude": 12.91216916,
-    "longitude": 77.57115552,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Adya Mansions (Best PG for Ladies)",
-    "price": 6000,
-    "Rating": 4.2,
-    "latitude": 12.93543227,
-    "longitude": 77.55904916,
+    "latitude": 12.92621801,
+    "longitude": 77.57317777,
     "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "Nandana Organics Pg",
-    "price": 5000,
+    "Hostel_name": "Shirdi sai mansion pg",
+    "price": 4500,
     "Rating": 4.2,
-    "latitude": 12.88300103,
-    "longitude": 77.546726,
+    "latitude": 12.91398083,
+    "longitude": 77.59412377,
     "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "JP Nagar PG",
-    "price": 5500,
+    "Hostel_name": "Sree Chakra Paying Guest Accommodation",
+    "price": 3500,
     "Rating": 4.1,
-    "latitude": 12.90544739,
-    "longitude": 77.58588402,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Yashoda Girls PG",
-    "price": 5500,
-    "Rating": 4.1,
-    "latitude": 12.98539013,
-    "longitude": 77.53723737,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "ATITHI BOYS PG",
-    "price": 5000,
-    "Rating": 4.1,
-    "latitude": 12.89653916,
-    "longitude": 77.58294257,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Lakshmi Villas",
-    "price": 5000,
-    "Rating": 4.1,
-    "latitude": 12.9026843,
-    "longitude": 77.58464133,
+    "latitude": 12.91800209,
+    "longitude": 77.5779219,
     "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "SMP Paying Guest",
-    "price": 5500,
-    "Rating": 4.1,
-    "latitude": 12.88572874,
-    "longitude": 77.54696484,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Amma Ladies PG, Water tank road",
-    "price": 10000,
+    "Hostel_name": "Royal New Luxury PG for Ladies",
+    "price": 3000,
     "Rating": 4.0,
-    "latitude": 12.93188678,
-    "longitude": 77.54633059,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
+    "latitude": 12.898757,
+    "longitude": 77.628021,
+    "BusStop": "Raghuvanahalli Cross",
+    "Distance": 0.21
   },
   {
-    "Hostel_name": "SR2 Galaxy PG Girls",
-    "price": 5000,
+    "Hostel_name": "Friends Pg",
+    "price": 3400,
     "Rating": 4.0,
-    "latitude": 12.89449335,
-    "longitude": 77.57714244,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Rajmahal Pg",
-    "price": 5000,
-    "Rating": 4.0,
-    "latitude": 12.88141771,
-    "longitude": 77.54341883,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "zolo icarus",
-    "price": 10000,
-    "Rating": 4.0,
-    "latitude": 12.88908104,
-    "longitude": 77.57315916,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Skanda Boys PG",
-    "price": 5500,
-    "Rating": 3.9,
-    "latitude": 12.90270626,
-    "longitude": 77.58241089,
-    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Paradise PG For Boys & Men",
-    "price": 5600,
-    "Rating": 3.9,
-    "latitude": 12.90689259,
-    "longitude": 77.5658607,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Sri Nimishamba Ladies Pg",
-    "price": 6000,
-    "Rating": 3.9,
-    "latitude": 12.91843909,
-    "longitude": 77.58063684,
+    "latitude": 12.91296871,
+    "longitude": 77.58597353,
     "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "Fourth Pg Accommodation",
-    "price": 7000,
-    "Rating": 3.9,
-    "latitude": 12.92898045,
-    "longitude": 77.58266927,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
+    "Hostel_name": "Sri Sai Ram Ladies & Gents PG",
+    "price": 3000,
+    "Rating": 4.0,
+    "latitude": 12.91466589,
+    "longitude": 77.49990998,
+    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
+    "Distance": 0.04
   },
   {
-    "Hostel_name": "White House Women's Residence",
-    "price": 7000,
-    "Rating": 3.9,
-    "latitude": 12.93149603,
-    "longitude": 77.57346579,
+    "Hostel_name": "Atithi Boys Pg",
+    "price": 4000,
+    "Rating": 4.0,
+    "latitude": 12.9061572,
+    "longitude": 77.56615273,
     "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "Karnataka Paying Guest",
-    "price": 5000,
+    "Hostel_name": "Stay Safe PG",
+    "price": 3500,
+    "Rating": 4.0,
+    "latitude": 12.87026569,
+    "longitude": 77.58899233,
+    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
+    "Distance": 0.04
+  },
+  {
+    "Hostel_name": "G S PG",
+    "price": 4500,
+    "Rating": 4.0,
+    "latitude": 12.85441935,
+    "longitude": 77.58699027,
+    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
+    "Distance": 0.04
+  },
+  {
+    "Hostel_name": "Skanda PG",
+    "price": 4000,
+    "Rating": 4.0,
+    "latitude": 12.90000854,
+    "longitude": 77.58295356,
+    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
+    "Distance": 0.04
+  },
+  {
+    "Hostel_name": "Aravind Modern Nest PG",
+    "price": 4000,
+    "Rating": 3.9,
+    "latitude": 12.90420247,
+    "longitude": 77.58568192,
+    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
+    "Distance": 0.04
+  },
+  {
+    "Hostel_name": "SS LUXURY FOR GENTS AND LADIES PG",
+    "price": 4000,
+    "Rating": 3.9,
+    "latitude": 12.89152465,
+    "longitude": 77.5940521,
+    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
+    "Distance": 0.07
+  },
+  {
+    "Hostel_name": "SAGAR BOYS PG",
+    "price": 4500,
     "Rating": 3.8,
-    "latitude": 12.90369761,
-    "longitude": 77.58210517,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "Hema PG For Men and Women",
-    "price": 5000,
-    "Rating": 3.8,
-    "latitude": 12.93067323,
-    "longitude": 77.51403304,
-    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
-    "Distance": 0.04
-  },
-  {
-    "Hostel_name": "My Home Pg For Men",
-    "price": 5000,
-    "Rating": 3.8,
-    "latitude": 12.93496039,
-    "longitude": 77.57154149,
+    "latitude": 12.98271377,
+    "longitude": 77.57294294,
     "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
     "Distance": 0.07
   },
   {
-    "Hostel_name": "Sudarshan Luxury Living - Hulimavu",
-    "price": 8000,
+    "Hostel_name": "S S Paying Guest For Men",
+    "price": 3000,
     "Rating": 3.7,
-    "latitude": 12.88317941,
-    "longitude": 77.59483865,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
+    "latitude": 12.91007039,
+    "longitude": 77.57281299,
+    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
+    "Distance": 0.04
   },
   {
-    "Hostel_name": "New Sri Vaishnavi Gents Pg",
-    "price": 5000,
+    "Hostel_name": "Aarush Ladies Pg",
+    "price": 4000,
     "Rating": 3.7,
-    "latitude": 12.89687983,
-    "longitude": 77.57111811,
-    "BusStop": "Jaraganahalli House Building Co-Op-Society Layout,J.H.B.C.S.COLONY,IN FRONT OF PARK VIEW DEPARTMENTAL STORES",
-    "Distance": 0.07
-  },
-  {
-    "Hostel_name": "Sri Ram Sri Lakshmi Pg",
-    "price": 5400,
-    "Rating": 3.7,
-    "latitude": 12.91806215,
-    "longitude": 77.58606574,
+    "latitude": 12.90198344,
+    "longitude": 77.58498871,
     "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "Slv Ragigudda Ladies Pg",
-    "price": 5000,
+    "Hostel_name": "S T R Pg For Gents",
+    "price": 4500,
     "Rating": 3.6,
-    "latitude": 12.91541995,
-    "longitude": 77.59474583,
+    "latitude": 12.90509154,
+    "longitude": 77.60425999,
     "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
     "Distance": 0.04
   },
   {
-    "Hostel_name": "Akshaya PG for Men's",
-    "price": 5000,
-    "Rating": 3.0,
-    "latitude": 12.93352405,
-    "longitude": 77.54467935,
+    "Hostel_name": "MGR & Amaravathi Paying Guest",
+    "price": 3500,
+    "Rating": 3.5,
+    "latitude": 12.90788247,
+    "longitude": 77.59142227,
     "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
+    "Distance": 0.04
+  },
+  {
+    "Hostel_name": "Shree Raksha Paying Guest",
+    "price": 4000,
+    "Rating": 3.4,
+    "latitude": 12.91325801,
+    "longitude": 77.48084537,
+    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
+    "Distance": 0.04
+  },
+  {
+    "Hostel_name": "Cloud 9 Pg",
+    "price": 3500,
+    "Rating": 3.4,
+    "latitude": 12.9118534,
+    "longitude": 77.56681698,
+    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
+    "Distance": 0.04
+  },
+  {
+    "Hostel_name": "Mohan Vatika",
+    "price": 4500,
+    "Rating": 3.3,
+    "latitude": 12.90280342,
+    "longitude": 77.59183684,
+    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
+    "Distance": 0.04
+  },
+  {
+    "Hostel_name": "Vinayaka PG Accommodation",
+    "price": 4500,
+    "Rating": 3.1,
+    "latitude": 12.93486395,
+    "longitude": 77.5528899,
+    "BusStop": "Kengeri Satelite Town,KENGERI UPANAGARA,IN FRONT OF KARUNA BAKERES & SWEETS",
+    "Distance": 0.04
+  },
+  {
+    "Hostel_name": "BNMIT Boys Hostel",
+    "price": 4500,
+    "Rating": 3.0,
+    "latitude": 12.91762686,
+    "longitude": 77.55433942,
+    "BusStop": "JPNagara 6th Phase,J.P.NAGARA 6TH PHASE,IN FRONT OF NANDHINI HOTEL",
     "Distance": 0.04
   }
 ]

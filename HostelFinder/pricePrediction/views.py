@@ -22,7 +22,7 @@ def result(request):
             
             y_pred=model.predict([[int(bed),int(ac),int(security),int(food),float(rating),int(laundry)]])
             
-            return render(request,"result.html",{"result":(y_pred[0])})
+            return render(request,"result.html",{"result":round(y_pred[0],2)})
 
     
     

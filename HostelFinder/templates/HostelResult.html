@@ -3,9 +3,433 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
     <title>price Prediction</title>
-    
-    <style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navbar Start */
+#navbar{
+    background: #f9f9f9;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: #ffa500;
+}
+.navbar-toggler span{
+    color: #ffa500;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: #ffa500;
+    color: white;
+}
+#navbar form button{
+    background: orange;
+    color: white;
+    border: none;
+}
+/* Navbar End */
+
+/* Home Section Start */
+.home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(./images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+}
+.home .content h5{
+    color: white;
+    font-size: 38px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+}
+.home .content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 550;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+.changecontent::after{
+    content: ' ';
+    color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "Konanakunte";}
+    10%{content: "Raghuvanahalli";}
+    20%{content: "Dhoddakallasandra";}
+    30%{content: "Tataguni";}
+    40%{content: "Sarakki";}
+    50%{content: "Rajajinagara";}
+    60%{content: "Yelachenahalli";}
+    70%{content: "Banashankari";}
+    80%{content: "Basavanagudi";}
+    90%{content: "";}
+    100%{content: "";}
+} 
+.home .content p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.home .content a{
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.home .content a:hover{
+    background: #ffa500;
+    color: white;
+}
+@media (max-width:850px){
+    .home{
+        background-position: 50%;
+    }
+}
+@media (max-width:450px){
+    .home .content h5{
+        font-size: 25px;
+    }
+    .home .content h1{
+        font-size: 38px;
+    }
+    .home .content p{
+        font-size: 13px;
+    }
+}
+/* Home Section End */
+
+/* Section Book Start */
+.book{
+    background: #f9f9f9;
+    padding: 50px;
+}
+.main-text h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.main-text h1 span{
+    color: #ffa500;
+}
+.book .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .row{
+    margin-top: 30px;
+}
+.book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+    height: 200px;
+}
+.book .submit{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background: #ffa500;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    width: 170px;
+}
+@media (max-width:765px){
+    .book{
+        padding: 0;
+    }
+    .main-text h1{
+        padding: 20px;
+    }
+}
+/* Section Book End */
+
+
+
+
+
+/* Section Packages Start */
+.main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+    color: #ffa500;
+}
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.packages .card img{
+    border-radius: 5px;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p{
+    font-size: 15px;
+}
+.checked{
+    color: #ffa500;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card .card-body h6{
+    font-size: 20px;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
+/* Section Packages End */
+
+
+
+
+/* Section Services Start */
+.services{
+    background: #f9f9f9;
+    margin-top: 50px;
+}
+.services .card{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+}
+.services .card .card-body{
+    text-align: center;
+}
+/* Section Services End */
+
+
+
+
+
+/* Section Gallary Start */
+.gallary{
+    margin-top: 50px;
+}
+.gallary .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+}
+/* Section Gallary End */
+
+
+
+
+/* About Start */
+.about{
+    padding: 50px;
+    margin-top: 50px;
+    background: #f9f9f9;
+}
+.about .card{
+    border-radius: 10px;
+}
+.about .card img{
+    border-radius: 10px;
+}
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about p{
+    font-weight: 500;
+}
+#about-btn{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #ffa500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#about-btn:hover{
+    width: 170px;
+}
+@media (max-width:765px){
+    .about{
+        padding: 0;
+    }
+}
+/* About End */
+
+
+
+
+/* Footer Start */
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    background: #f9f9f9;
+}
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+#footer h1 span{
+    color: #ffa500;
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background: #ffa500;
+}
+/* Footer End */
+.checked {
+  color: orange;
+}
+      
+.main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+    color: #ffa500;
+}
+.packages .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+}
+.packages .card img{
+    border-radius: 5px;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p{
+    font-size: 15px;
+}
+.checked{
+    color: #ffa500;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card .card-body h6{
+    font-size: 20px;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: #ffa500;
+    color: white;
+    border-radius: 5px;
+}
       .centered {
           position: absolute;
           font-weight: 1000;
@@ -69,109 +493,92 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand text-warning" href="#">Hostel Finder</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav" >
-          <a class="nav-link active" href="/home">Home</a>
-          <a class="nav-link" href="/pricePrediction">Price Prediction</a>
-          <a class="nav-link" href="#">Hostel Recommendation</a>
-          <a class="nav-link" href="#">Hostel Recommendation</a>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="/home" id="logo"><span>H</span>ostel</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/HostelPrediction">Recommend</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pricePrediction">Price Predict</a>
+            </li>
+            
+            {% comment %} <li class="nav-item">
+              <a class="nav-link" href="#gallary">Gallary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li> {% endcomment %}
+           
+          </ul>
           
-          <button type="button" class="btn btn-warning my-2 my-lg-0" style="float: right"><a class="nav-link" href="{% url 'logout'%}">Logout</a></button>
-
+        
+          <li class="nav-item">
+            <a class="nav-link" href="/Recommendation">Search Hostel</a>
+          </li>
+        </div>
         </div>
       </div>
     </nav>
-    <div>
-    <img src="https://media.istockphoto.com/id/1414156193/photo/modern-college-dorm-room-with-cardboard-boxes-and-luggages.jpg?b=1&s=170667a&w=0&k=20&c=sZ3qh4FWpc12sOBb-Pw1KtEmPHhXgiIM-H8PmbD2uio=" alt="Snow" style="width:100%;height:400px">
-    <div class="centered text-warning">Hostel/PG Price Prediction</div>
-    
+  <!-- Navbar End -->
+   
+ 
 
-    {% comment %} form start {% endcomment %}
-    {% comment %} <div class="form-container">
-      <form action="result" method="post">
-        {% csrf_token %} 
-        <h1 class="text-canter" style="color:white">Price Prediction</h1>
-       
-        <label for="No of beds">No of beds</label>
-        <select id="No of beds" name="beds" required>
-          <option value="">Select an option</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-        </select>
+    <section class="packages" id="packages">
+      <div class="container">
+        <P><a href="MapDirect"><h3>View on map</h3></a><P>
 
-        <label for="food">food type</label>
-        <select id="food" name="food" required>
-          <option value="">Select an option</option>
-          <option value="1">Veg</option>
-          <option value="0">Non Veg</option>
-        </select>
-
-        <label for="ac">AC</label>
-        <select id="ac" name="ac" required>
-          <option value="">Select an option</option>
-          <option value="1">Yes</option>
-          <option value="0">No</option>
-        </select>
-
-        <label for="laundry">Laundry</label>
-        <select id="laundry" name="laundry" required>
-          <option value="">Select an option</option>
-          <option value="1">Yes</option>
-          <option value="0">No</option>
-        </select>
-
-        <label for="security">Security</label>
-        <select id="security" name="security" required>
-          <option value="">Select an option</option>
-          <option value="1">Yes</option>
-          <option value="0">No</option>
-        </select>
-
-        <label for="rating">rating</label>
-        <input type="number" id="rating" name="rating" min=0 max=5 placeholder="Enter rating out of 5" required>
-
-     
-        <br>
-        <button class="button" type="submit">Predict</button>
-      </form>
-    </div>
-    <button class="button " onclick="PriceDisplay({{result}})" type="submit">View</button> {% endcomment %}
-    <h1>recommended Hostel</h1>
-   {% comment %} {{data}} {% endcomment %}
-
-    <div class="row ">
       {% for item in data %}
-      
-      <div class="card col-4 m-5" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">{{item.Hostel_name}}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Price:{{item.price}}</h6>
-          <p class="card-text">{{item.Rating}}⭐</p>
-          <p class="card-text">🚌{{item.BusStop}} - {{item.Distance}} km away</p>
-          <p> </p>
-          
+      <div class="col-md-6 md-5" style="margin-top: 30px;">
+
+
+          <div class="card">
+            <iframe  width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="{{item.EmbeddedMap}}"></iframe>
+            <h2 style={scroll-behavior: smooth;
+              font-family: 'Lato', sans-serif;}>{{item.Hostel_name}}</h2>
+              <h3 style={scroll-behavior: smooth;
+                font-family: 'Lato', sans-serif;}>Address:</h3><h4>{{item.address}}</h4>
+           
+
+            {% comment %} <h5 class="card-title">{{item.Hostel_name}}</h5> {% endcomment %}
+          {% comment %} <h6 class="card-subtitle mb-2 text-muted"><h5>Price:</h5>{{item.price}}</h6> {% endcomment %}
+          {% with range=forloop.counter0|add:item.Rating %}
+          {% for i in 0|default:0|length_is:range %}
+            <i class="fa-solid fa-star checked"></i>
+          {% endfor %}
+        {% endwith %}
+        
+          <h4 class="card-text">Rating {{item.Rating}}⭐</h4>
+          <h4 class="card-text">Price ₹{{item.price}}</h4>
+
+          <h5 class="card-text">Nearset Bus Stop</h5>
+          <p class="card-text"><h5>📍{{item.BusStop}} </h5>- {{item.Distance}} km away</p>
+         
         </div>
       </div>
       
+      
       {% endfor%}
-
+    </div>
+  </section>
       
 
-    </ul>
    
-    {% comment %} <button class="btn " id="buttonSearch" type="button" >View Data</button> {% endcomment %}
 
     
 
     
     <script src="{% load static %} "></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>

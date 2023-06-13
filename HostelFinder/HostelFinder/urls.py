@@ -18,6 +18,7 @@ from django.urls import path,include
 from app1 import views as v1
 from pricePrediction import views
 from HostelPrediction import views as v2
+from Recommendation import views as v3
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("",v1.SignupPage,name="signup"),
@@ -28,5 +29,9 @@ urlpatterns = [
     path("logout/",v1.LogoutPage,name="logout"),
     path("HostelPrediction",v2.HostelPrediction,name="hostelPrediction"),
     path("HostelRecom",v2.HostelRecom,name="HostelRecom"),
+    path("Recommendation",v3.Recommendation,name="Recommendation"),
+    path("NLPResult",v3.NLPResult,name="NLPResult"),
+    path("MapDirect",v2.MapDirect,name="MapDirect")
+
     
 ]

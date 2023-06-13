@@ -1,0 +1,778 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+
+    {% comment %} style {% endcomment %}
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        scroll-behavior: smooth;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    /* Navbar Start */
+    #navbar{
+        background: #f9f9f9;
+    }
+    #logo{
+        font-size: 36px;
+        font-weight: 550;
+        color: black;
+        text-shadow: 0px 1px 1px black;
+        margin-bottom: 5px;
+    }
+    #logo span{
+        color: #ffa500;
+    }
+    .navbar-toggler span{
+        color: #ffa500;
+    }
+    .navbar-nav{
+        margin-left: 20px;
+    }
+    .nav-item .nav-link{
+        font-size: 16px;
+        font-weight: 550;
+        color: black;
+        letter-spacing: 1px;
+        border-radius: 3px;
+        transition: 0.5s ease;
+    }
+    .nav-item .nav-link:hover{
+        background: #ffa500;
+        color: white;
+    }
+    #navbar form button{
+        background: orange;
+        color: white;
+        border: none;
+    }
+    /* Navbar End */
+    
+    /* Home Section Start */
+    .home{
+        width: 100%;
+        height: 90vh;
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)), url(https://bstatic.com/data/xphoto/1182x887/409/40942655.jpg?size=S);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .home .content{
+        text-align: center;
+        padding-top: 200px;
+    }
+    .home .content h5{
+        color: white;
+        font-size: 38px;
+        font-weight: 550;
+        text-shadow: 0px 1px 1px black;
+    }
+    .home .content h1{
+        color: white;
+        font-size: 70px;
+        font-weight: 550;
+        text-shadow: 0px 1px 1px black;
+        margin-top: 5px;
+    }
+    .changecontent::after{
+        content: ' ';
+        color: #ffa500;
+        text-shadow: 0px 1px 1px black;
+        animation: changetext 10s infinite linear;
+    }
+    @keyframes changetext{
+        0%{content: "Konanakunte";}
+        10%{content: "Raghuvanahalli";}
+        20%{content: "Dhoddakallasandra";}
+        30%{content: "Tataguni";}
+        40%{content: "Sarakki";}
+        50%{content: "Rajajinagara";}
+        60%{content: "Yelachenahalli";}
+        70%{content: "Banashankari";}
+        80%{content: "Basavanagudi";}
+        90%{content: "";}
+        100%{content: "";}
+    } 
+    .home .content p{
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        text-shadow: 0px 1px 1px black;
+        margin-bottom: 30px;
+        margin-top: 5px;
+    }
+    .home .content a{
+        padding: 10px;
+        background: white;
+        color: black;
+        letter-spacing: 2px;
+        font-weight: 550;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .home .content a:hover{
+        background: #ffa500;
+        color: white;
+    }
+    @media (max-width:850px){
+        .home{
+            background-position: 50%;
+        }
+    }
+    @media (max-width:450px){
+        .home .content h5{
+            font-size: 25px;
+        }
+        .home .content h1{
+            font-size: 38px;
+        }
+        .home .content p{
+            font-size: 13px;
+        }
+    }
+    /* Home Section End */
+    
+    /* Section Book Start */
+    .book{
+        background: #f9f9f9;
+        padding: 50px;
+    }
+    .main-text h1{
+        text-align: center;
+        text-shadow: 0px 1px 1px black;
+        font-weight: 600;
+    }
+    .main-text h1 span{
+        color: #ffa500;
+    }
+    .book .card{
+        border-radius: 10px;
+        box-shadow: 0px 5px 5px -6px black;
+    }
+    .book .row{
+        margin-top: 30px;
+    }
+    .book form input{
+        padding: 10px;
+        color: black;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 5px -6px black;
+    }
+    .book form textarea{
+        border: none;
+        border-radius: 10px;
+        resize: none;
+        box-shadow: 0px 5px 5px -6px black;
+        height: 200px;
+    }
+    .book .submit{
+        width: 160px;
+        font-size: 16px;
+        font-weight: 550;
+        background: #ffa500;
+        color: white;
+        margin-top: 10px;
+        transition: 0.5s;
+    }
+    .book .submit:hover{
+        width: 170px;
+    }
+    @media (max-width:765px){
+        .book{
+            padding: 0;
+        }
+        .main-text h1{
+            padding: 20px;
+        }
+    }
+    /* Section Book End */
+    
+    
+    
+    
+    
+    /* Section Packages Start */
+    .main-txt h1{
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 600;
+        text-shadow: 0px 1px 1px black;
+    }
+    .main-txt h1 span{
+        color: #ffa500;
+    }
+    .packages .card{
+        border-radius: 5px;
+        border: none;
+        box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    }
+    .packages .card img{
+        border-radius: 5px;
+    }
+    .packages .card .card-body{
+        background: transparent;
+    }
+    .packages .card .card-body h3{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .packages .card .card-body p{
+        font-size: 15px;
+    }
+    .checked{
+        color: #ffa500;
+    }
+    .star i{
+        font-size: 15px;
+    }
+    .packages .card .card-body h6{
+        font-size: 20px;
+    }
+    .packages .card .card-body a{
+        padding: 10px;
+        text-decoration: none;
+        background: #ffa500;
+        color: white;
+        border-radius: 5px;
+    }
+    /* Section Packages End */
+    
+    
+    
+    
+    /* Section Services Start */
+    .services{
+        background: #f9f9f9;
+        margin-top: 50px;
+    }
+    .services .card{
+        box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+        border: none;
+        cursor: pointer;
+    }
+    .services .card i{
+        font-size: 80px;
+        text-align: center;
+        color: #ffa500;
+        margin-top: 20px;
+    }
+    .services .card .card-body h3{
+        font-weight: 600;
+    }
+    .services .card .card-body{
+        text-align: center;
+    }
+    /* Section Services End */
+    
+    
+    
+    
+    
+    /* Section Gallary Start */
+    .gallary{
+        margin-top: 50px;
+    }
+    .gallary .card{
+        border-radius: 10px;
+        box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+        cursor: pointer;
+    }
+    .gallary .card img{
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    .gallary .card img:hover{
+        transform: scale(1.1);
+    }
+    /* Section Gallary End */
+    
+    
+    
+    
+    /* About Start */
+    .about{
+        padding: 50px;
+        margin-top: 50px;
+        background: #f9f9f9;
+    }
+    .about .card{
+        border-radius: 10px;
+    }
+    .about .card img{
+        border-radius: 10px;
+    }
+    .about h2{
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .about p{
+        font-weight: 500;
+    }
+    #about-btn{
+        width: 150px;
+        height: 38px;
+        border: none;
+        border-radius: 5px;
+        background: #ffa500;
+        color: white;
+        letter-spacing: 2px;
+        font-weight: 550;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    #about-btn:hover{
+        width: 170px;
+    }
+    @media (max-width:765px){
+        .about{
+            padding: 0;
+        }
+    }
+    /* About End */
+    
+    
+    
+    
+    /* Footer Start */
+    #footer{
+        width: 100%;
+        margin-top: 150px;
+        text-align: center;
+        background: #f9f9f9;
+    }
+    #footer h1{
+        font-weight: 600;
+        padding-top: 30px;
+        text-shadow: 0px 0px 1px black;
+    }
+    #footer h1 span{
+        color: #ffa500;
+    }
+    .social-links i{
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+        background: black;
+        color: white;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+    .social-links i:hover{
+        background: #ffa500;
+    }
+    /* Footer End */
+    form {
+      {% comment %} display: flex; {% endcomment %}
+      align-items: center;
+    }
+    
+    input[type="text"] {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      border-radius: 2px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+    }
+    
+    button[type="submit"] {
+      padding: 8px 16px;
+      border: none;
+      background-color: #f2f2f2;
+      border-radius: 2px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .section {
+        position: relative;
+        height: 100vh;
+      }
+      
+      .section .section-center {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+      
+      #booking {
+        font-family: "Montserrat", sans-serif;
+        background-image: url(https://pix8.agoda.net/hotelImages/408/408985/408985_17081218240055350533.jpg?ca=6&ce=1&s=1024x768);
+        background-size: cover;
+        background-position: center;
+      }
+      
+      #booking::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background: rgba(255,255,255, 0.2);
+      }
+      
+      .booking-form {
+        background-color: #fff;
+        padding: 50px 20px;
+        -webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+      }
+      
+      .booking-form .form-group {
+        position: relative;
+        margin-bottom: 30px;
+      }
+      
+      .booking-form .form-control {
+        background-color: #ebecee;
+        border-radius: 4px;
+        border: none;
+        height: 40px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        color: #3e485c;
+        font-size: 14px;
+      }
+      
+      .booking-form .form-control::-webkit-input-placeholder {
+        color: rgba(62, 72, 92, 0.3);
+      }
+      
+      .booking-form .form-control:-ms-input-placeholder {
+        color: rgba(62, 72, 92, 0.3);
+      }
+      
+      .booking-form .form-control::placeholder {
+        color: rgba(62, 72, 92, 0.3);
+      }
+      
+      .booking-form input[type="date"].form-control:invalid {
+        color: rgba(62, 72, 92, 0.3);
+      }
+      
+      .booking-form select.form-control {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+      
+      .booking-form select.form-control + .select-arrow {
+        position: absolute;
+        right: 0px;
+        bottom: 4px;
+        width: 32px;
+        line-height: 32px;
+        height: 32px;
+        text-align: center;
+        pointer-events: none;
+        color: rgba(62, 72, 92, 0.3);
+        font-size: 14px;
+      }
+      
+      .booking-form select.form-control + .select-arrow:after {
+        content: "\279C";
+        display: block;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+      
+      .booking-form .form-label {
+        display: inline-block;
+        color: #3e485c;
+        font-weight: 700;
+        margin-bottom: 6px;
+        margin-left: 7px;
+      }
+      
+      .booking-form .submit-btn {
+        display: inline-block;
+        color: #fff;
+        background-color: #1e62d8;
+        font-weight: 700;
+        padding: 14px 30px;
+        border-radius: 4px;
+        border: none;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+      }
+      
+      .booking-form .submit-btn:hover,
+      .booking-form .submit-btn:focus {
+        opacity: 0.9;
+      }
+      
+      .booking-cta {
+        margin-top: 80px;
+        margin-bottom: 30px;
+      }
+      
+      .booking-cta h1 {
+        font-size: 52px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 700;
+      }
+      
+      .booking-cta p {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.8);
+      }
+    </style>
+
+    {% comment %} end style {% endcomment %}
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="/home" id="logo"><span>H</span>ostel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="/home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/HostelPrediction">Recommend</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pricePrediction">Price Predict</a>
+              </li>
+              
+              {% comment %} <li class="nav-item">
+                <a class="nav-link" href="#gallary">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li> {% endcomment %}
+             
+            </ul>
+      
+            <li class="nav-item">
+              <a class="nav-link" href="/Recommendation">Search Hostel</a>
+            </li>
+          </div>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar End -->
+    <!-- Home Section Start -->
+    {% comment %}new form  {% endcomment %}
+    {% comment %} <div id="booking" class="section">
+        <div class="section-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 col-md-push-5">
+                <div class="booking-cta">
+                  <h1>Find your second home</h1>
+                  <p></p>
+                </div>
+              </div>
+              <div class="col-md-4 col-md-pull-7">
+                <div class="booking-form">
+                    <form method="post" action="NLPResult">
+                        {% csrf_token %} 
+                        <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                              <span class="form-label">Locality</span>
+                              <select id="locality"  class="form-control" name="locality" required>
+                                  <option value='' required>select</option>
+                                  <option value='raghuvanahalli'>raghuvanahalli</option>
+                                  <option value='hosur main road'>hosur main road</option>
+                                  <option value='near devegowda(dg) petrol bunk'>near devegowda(dg) petrol bunk</option>
+                                  <option value='karesandra'>karesandra</option>
+                                  <option value='kumaraswamy layout'>kumaraswamy layout</option>
+                                  <option value='pulikeshi nagar'>pulikeshi nagar</option>
+                                  <option value='hulimavu'>hulimavu</option>
+                                  <option value='jayanagar'>jayanagar</option>
+                                  <option value='jp nagar'>jp nagar</option>
+                                  <option value= 'yelachenahalli'>yelachenahalli</option>
+                                  <option value='banashanakri 3rd stage'>banashanakri 3rd stage</option>
+                                  <option value='arkere micolayout'>arkere micolayout</option>
+                                  <option value='bilekahalli'>bilekahalli</option>
+                                  <option value='basavanagudi'>basavanagudi</option>
+                                  <option value='srinivasnagar'>srinivasnagar</option>
+                                  <option value='eshwara nagar'>eshwara nagar</option>
+                                  <option value='kadarenahalli'>kadarenahalli</option>
+                                  <option value='banashanakri'>banashanakri</option>
+                                  <option value='padmanabhanagar'>padmanabhanagar</option>
+                                  <option value='gottigere'>gottigere</option>
+                                  <option value='kengeri'>kengeri</option>
+                                  <option value='rajarajeshwari nagar'>rajarajeshwari nagar</option>
+                                  <option value='rv road'>rv road</option>
+                                  <option value='hosakerehalli layout'>hosakerehalli layout</option>
+                                  <option value='banagirinagar'>banagirinagar</option>
+                                  <option value='arekere gate'>arekere gate</option>
+                                  <option value='bannerghatta road'>bannerghatta road</option>
+                                  <option value='btm layout'>btm layout</option>
+                                  <option value='thyagaraja nagar'>thyagaraja nagar</option>
+                                  <option value='girinagar'>girinagar</option>
+                            </select>
+                            <span class="select-arrow"></span>
+                          </div>
+                        </div>
+                    </div>
+                        <div class="row">
+                    <div class="form-group">
+                        <span class="form-label">Description</span>
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Description"
+                          id="Description"
+                          name="Description"
+  
+                        />
+                    </div>
+                </div>
+                    
+                    <div class="form-btn">
+                        <button class="submit-btn">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> {% endcomment %}
+   
+        <div id="booking" class="section">
+            <div class="section-center"  >
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-7 col-md-push-5">
+                    <div class="booking-cta">
+                      <h1>Discover your perfect hostel match!</h1>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-md-pull-7">
+                    <div class="booking-form">
+                      <form class="container"action="NLPResult" method="post">
+                        {% csrf_token %} 
+                            <div class="form-group row">
+                              <span class="form-label">Locality</span>
+                              <select id="locality"  class="form-control" name="locality" required>
+                                <option value='' required>select</option>
+                                <option value='raghuvanahalli'>raghuvanahalli</option>
+                                <option value='hosur main road'>hosur main road</option>
+                                <option value='near devegowda(dg) petrol bunk'>near devegowda(dg) petrol bunk</option>
+                                <option value='karesandra'>karesandra</option>
+                                <option value='kumaraswamy layout'>kumaraswamy layout</option>
+                                <option value='pulikeshi nagar'>pulikeshi nagar</option>
+                                <option value='hulimavu'>hulimavu</option>
+                                <option value='jayanagar'>jayanagar</option>
+                                <option value='jp nagar'>jp nagar</option>
+                                <option value= 'yelachenahalli'>yelachenahalli</option>
+                                <option value='banashanakri 3rd stage'>banashanakri 3rd stage</option>
+                                <option value='arkere micolayout'>arkere micolayout</option>
+                                <option value='bilekahalli'>bilekahalli</option>
+                                <option value='basavanagudi'>basavanagudi</option>
+                                <option value='srinivasnagar'>srinivasnagar</option>
+                                <option value='eshwara nagar'>eshwara nagar</option>
+                                <option value='kadarenahalli'>kadarenahalli</option>
+                                <option value='banashanakri'>banashanakri</option>
+                                <option value='padmanabhanagar'>padmanabhanagar</option>
+                                <option value='gottigere'>gottigere</option>
+                                <option value='kengeri'>kengeri</option>
+                                <option value='rajarajeshwari nagar'>rajarajeshwari nagar</option>
+                                <option value='rv road'>rv road</option>
+                                <option value='hosakerehalli layout'>hosakerehalli layout</option>
+                                <option value='banagirinagar'>banagirinagar</option>
+                                <option value='arekere gate'>arekere gate</option>
+                                <option value='bannerghatta road'>bannerghatta road</option>
+                                <option value='btm layout'>btm layout</option>
+                                <option value='thyagaraja nagar'>thyagaraja nagar</option>
+                                <option value='girinagar'>girinagar</option>
+                          </select>
+                              <span class="select-arrow"></span>
+                            </div>
+                      
+                          <div class="form-group row" >
+                            <span class="form-label">Description</span>
+                            <input
+                              class="form-control"
+                              type="textarea"
+                              placeholder="Description"
+                              id="Description"
+                              name="Description"
+                            />
+                          </div>
+                        <div class="form-btn">
+                          <button class="submit-btn" type="submit">Submit</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+       
+       
+   
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+  
+    <!-- Footer Start -->
+    <footer id="footer">
+      <h1><span>H</span>ostel</h1>
+      <p></p>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </div>
+      
+      
+    </footer>
+    <!-- Footer End -->
+</html>
