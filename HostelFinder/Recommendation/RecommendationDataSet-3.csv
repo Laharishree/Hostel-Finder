@@ -1,100 +1,100 @@
 Address,rating,Hostel_name,Tags,Locality
-"41, 3rd Cross Road,opposite to metro piller no 209,Raghuvanahalli, Subramanyapura",4.4,SMP Group of PGs,"['AC','Security','Veg','Women']",Raghuvanahalli
-"ROYAL PG, 10TH CROSS, NEAR SAI BABA TEMPLE,, BESIDE ROJA SILKS,HOUSR MAIN ROAD, GAREBAVIPALYA",4,Royal New Luxury PG for Ladies,"['Laundry','Security','Non Veg','Women']",Hosur Main Road
-"MegaMart, #1596/1, Amma Kodava Samaj, 27th cross, 30th Main, Banashankari 3rd stage. Near DeveGowda(DG) Petrol Bunk opp to, Banashankari Stage II, Banashankari, Bengaluru, Karnataka 560070",5,OM Sai Lakshmi PG,"['AC','Security','Veg','Laundry','Women']",Near DeveGowda(DG) Petrol Bunk
-"2237, 23rd Cross Rd, next to Karnataka Grameena Bank, Karesandra, Banashankari Stage II, Banashankari, Bengaluru, Karnataka 560070",4.4,The Beehive Hostel Luxury mens PG,"['Laundry','Security','Non Veg','Men']",Karesandra
-"7, 3rd Cross Rd, near Dayananda Sagar college of engineering, Kumaraswamy Layout, Bengaluru, Karnataka 560111",4.9,ELITE GIRLS PG / HOSTEL,"['AC','Security','Veg','Laundry','Women']",Kumaraswamy Layout
-"18, Buddha Vihara Rd, above The Paan Studio, Pulikeshi Nagar, Bengaluru, Karnataka 560005",4.2,home town paying guest,"['Laundry','Security','Non Veg','Men']",Pulikeshi Nagar
-"1st Main Rd, Bannerghatta Main Rd, Pai Layout, Hulimavu, Bengaluru, Karnataka 560016",5,Rentorio Hostel,"['AC','Security','Veg','Laundry','Men']",Hulimavu
-"113, Bannerghatta Main Rd, Madhuban Colony, Hulimavu, Bengaluru, Karnataka 560076",5,Covie Bannerghatta 185 Paying Guest/Hostels,"['AC','Security','Veg','Laundry','Women']",Hulimavu
-"#76,/1-4 30 th cross 4th T block Swagat main Road East, Tilak Nagar, Jayanagar, Bengaluru, Karnataka 560041",5,SA PG,"['AC','Security','Veg','Laundry','Women']",Jayanagar
+"41, 3rd Cross Road,opposite to metro piller no 209,Raghuvanahalli, Subramanyapura",4.4,SMP Group of PGs,"['AC','Security','Veg','Women','girls']",Raghuvanahalli
+"ROYAL PG, 10TH CROSS, NEAR SAI BABA TEMPLE,, BESIDE ROJA SILKS,HOUSR MAIN ROAD, GAREBAVIPALYA",4,Royal New Luxury PG for Ladies,"['Laundry','Security','Non-Veg','Women','girls']",Hosur Main Road
+"MegaMart, #1596/1, Amma Kodava Samaj, 27th cross, 30th Main, Banashankari 3rd stage. Near DeveGowda(DG) Petrol Bunk opp to, Banashankari Stage II, Banashankari, Bengaluru, Karnataka 560070",5,OM Sai Lakshmi PG,"['AC','Security','Veg','Laundry','Women','girls']",Near DeveGowda(DG) Petrol Bunk
+"2237, 23rd Cross Rd, next to Karnataka Grameena Bank, Karesandra, Banashankari Stage II, Banashankari, Bengaluru, Karnataka 560070",4.4,The Beehive Hostel Luxury mens PG,"['Laundry','Security','Non-Veg','Men','boys']",Karesandra
+"7, 3rd Cross Rd, near Dayananda Sagar college of engineering, Kumaraswamy Layout, Bengaluru, Karnataka 560111",4.9,ELITE GIRLS PG / HOSTEL,"['AC','Security','Veg','Laundry','Women','girls']",Kumaraswamy Layout
+"18, Buddha Vihara Rd, above The Paan Studio, Pulikeshi Nagar, Bengaluru, Karnataka 560005",4.2,home town paying guest,"['Laundry','Security','Non-Veg','Men','boys']",Pulikeshi Nagar
+"1st Main Rd, Bannerghatta Main Rd, Pai Layout, Hulimavu, Bengaluru, Karnataka 560016",5,Rentorio Hostel,"['AC','Security','Veg','Laundry','Men','boys']",Hulimavu
+"113, Bannerghatta Main Rd, Madhuban Colony, Hulimavu, Bengaluru, Karnataka 560076",5,Covie Bannerghatta 185 Paying Guest/Hostels,"['AC','Security','Veg','Laundry','Women','girls']",Hulimavu
+"#76,/1-4 30 th cross 4th T block Swagat main Road East, Tilak Nagar, Jayanagar, Bengaluru, Karnataka 560041",5,SA PG,"['AC','Security','Non-Veg','Laundry','women','girls']",Jayanagar
 "No. 10 - 11, Hive Hostels, Bannerghatta Main Rd, Pai Layout, Hulimavu, Bengaluru, Karnataka 560076",4.8,Hive Hostels,"['AC','Security','Veg','Laundry','Men']",Hulimavu
-"85/1, First Cross, Bannerghatta Main Rd, Hulimavu, Bengaluru, Karnataka 560076",4.1,Abuzz Oxfordcaps,"['Laundry','Security','Non Veg','Women']",Hulimavu
-"arch, no 9 2nd cross thimmareddy layout, Bannerghatta Main Rd, opp. Hulimavu, opp. christ university, Bengaluru, Karnataka 560076",3.7,Sudarshan Luxury Living - Hulimavu,"['Security','Veg,'Women'']",Hulimavu
-"37/40, 3rd Main Road, 3rd Cross Rd, Srinidhi Layout, 8th Phase, J. P. Nagar, Bengaluru, Karnataka 560062",4.2,Shivrang PG For Gents,"['Laundry','Security','Non Veg','Men']",JP Nagar
+"85/1, First Cross, Bannerghatta Main Rd, Hulimavu, Bengaluru, Karnataka 560076",4.1,Abuzz Oxfordcaps,"['Laundry','Security','Non-Veg','women','girls']",Hulimavu
+"arch, no 9 2nd cross thimmareddy layout, Bannerghatta Main Rd, opp. Hulimavu, opp. christ university, Bengaluru, Karnataka 560076",3.7,Sudarshan Luxury Living - Hulimavu,"['Security','Veg,'women','girls'']",Hulimavu
+"37/40, 3rd Main Road, 3rd Cross Rd, Srinidhi Layout, 8th Phase, J. P. Nagar, Bengaluru, Karnataka 560062",4.2,Shivrang PG For Gents,"['Laundry','Security','Non-Veg','Men']",JP Nagar
 "metro station, ##2052/28-29e, jothi layout, opp. to yelchanahalli, Yelachenahalli, J. P. Nagar, Bengaluru, Karnataka 560078",3.7,New Sri Vaishnavi Gents Pg,"['Security','Veg','Men']",Yelachenahalli
-"17, Beereshwara Nagar, Chunchgatta, Phase 7, J. P. Nagar, Bengaluru, Karnataka 560078",4,zolo icarus,"['Laundry','Security','Non Veg','Women']",JP Nagar
-"No.3006, Shobha Nilayam, VBN Co Operative Society Layout, Banashankari 3rd Stage",4,"Amma Ladies PG, Water tank road","['Laundry','Security','Non Veg','Women']",Banashanakri 3rd Stage
-"No.04 23rd Main, 1st Cross Marenhalli, Jp Nagar 2nd Phase, Bangalore - 560078 (Near Raghavendra Swamy Mata)",4.5,Shree Nideshwara Ladies Pg,"['Laundry','Security','Non Veg','Women']",JP Nagar
-"No 26, 22nd Main Road, Jp Nagar 2nd Phase, Bangalore - 560078 (Behind Marenahalli Kala Bhawan,Near Raghavendra Swamy Matt)",4.9,Sri Balaji Luxurious Ladies Pg,"['AC','Security','Veg','Laundry','Women']",JP Nagar
+"17, Beereshwara Nagar, Chunchgatta, Phase 7, J. P. Nagar, Bengaluru, Karnataka 560078",4,zolo icarus,"['Laundry','Security','Non-Veg','women','girls']",JP Nagar
+"No.3006, Shobha Nilayam, VBN Co Operative Society Layout, Banashankari 3rd Stage",4,"Amma Ladies PG, Water tank road","['Laundry','Security','Non-Veg','women','girls']",Banashanakri 3rd Stage
+"No.04 23rd Main, 1st Cross Marenhalli, Jp Nagar 2nd Phase, Bangalore - 560078 (Near Raghavendra Swamy Mata)",4.5,Shree Nideshwara Ladies Pg,"['Laundry','Security','Non-Veg','women','girls']",JP Nagar
+"No 26, 22nd Main Road, Jp Nagar 2nd Phase, Bangalore - 560078 (Behind Marenahalli Kala Bhawan,Near Raghavendra Swamy Matt)",4.9,Sri Balaji Luxurious Ladies Pg,"['AC','Security','Veg','Laundry','women','girls']",JP Nagar
 "No 58, 1st Stage, 1st Cross, Govinda Reddy Layout, Arkere Micolayout, bangalore - 560076 (Near Ganesga Temple)",3.9,SS LUXURY FOR GENTS AND LADIES PG,"['Security','Veg','Laundry','Men Women']",Arkere Micolayout
 "No 33/111, Eastern Portion, 7th Cross, Bilekahalli, Bangalore - 560076 (Opp to Honda Show Room)",4.9,Ss Comforts Gents Pg,"['AC','Security','Veg','Laundry','Men']",Bilekahalli
 "No.400, 30th Cross, 8th B Main Road, Jayanagar 4th Block, Bangalore - 560011 (Above Sukh Sagar Hotel)",3.9,Fourth Pg Accommodation,"['Security','Veg','Men']",Jayanagar
 "No.31/50, Netaji Road, Tata Silk Farm Road, T.R Nagar, Basavanagudi, Bangalore - 560004 (Near Nagasandra Circle)",3.8,My Home Pg For Men,"['Security','Veg','Men']",Basavanagudi
-"1st Stage, Kumaraswamy Layout, Bengaluru, Karnataka 560078",4.1,ATITHI BOYS PG,"['Laundry','Security','Non Veg','Men']",Kumaraswamy Layout
-"7, 3rd Cross Rd, near Dayananda Sagar college of engineering, Kumaraswamy Layout, Bengaluru, Karnataka 560111",4.9,ELITE GIRLS PG / HOSTEL,"['AC','Security','Veg','Laundry','Women']",Kumaraswamy Layout
-"1555, 6th Cross Rd, 1st Stage, Kumaraswamy Layout, Bengaluru, Karnataka 560078",4.6,Lohitha Girl's PG,"['Laundry','Security','Non Veg','Women']",Kumaraswamy Layout
-"36-37, 2nd Cross ,Teachers Colony, near Dayananda College, 1st Stage, Bengaluru, Karnataka 560078",4.9,Anagha Girls PG,"['AC','Security','Veg','Laundry','Women']",Kumaraswamy Layout
-"Agasthya Arcade, 3rd Cross, near Dayanand Sagar College, 1st Stage, Kumaraswamy Layout, Bengaluru, Karnataka 560078",4.6,Ganapa's Boys PG,"['Laundry','Security','Non Veg','Men']",Kumaraswamy Layout
-"WH68+5PW, Sagar Boys PG, opposite Dayanand sagar college, Bengaluru, Karnataka 560078",3.8,SAGAR BOYS PG,"['Laundry','Security','Non Veg','Men']",Kumaraswamy Layout
-"WH58+H2C, 7th Cross Rd, 1st Stage, Kumaraswamy Layout, Bengaluru, Karnataka 560078",4.1,Yashoda Girls PG,"['Laundry','Security','Non Veg','Women']",Kumaraswamy Layout
-"36-37, 2nd Cross ,Teachers Colony, near Dayananda College, 1st Stage, Bengaluru, Karnataka 560078",4.9,Anagha Girls PG,"['AC','Security','Veg','Laundry','Women']",Kumaraswamy Layout
-"Sudhakar Readdy, 70, 3rd Cross Rd, Teachers Colony, Kumaraswamy Layout, Bengaluru, Karnataka 560078",4.2,Stanza Living Anamur House,"['Laundry','Security','Non Veg','Women Men']",Kumaraswamy Layout
+"1st Stage, Kumaraswamy Layout, Bengaluru, Karnataka 560078",4.1,ATITHI BOYS PG,"['Laundry','Security','Non-Veg','Men']",Kumaraswamy Layout
+"7, 3rd Cross Rd, near Dayananda Sagar college of engineering, Kumaraswamy Layout, Bengaluru, Karnataka 560111",4.9,ELITE GIRLS PG / HOSTEL,"['AC','Security','Veg','Laundry','women','girls']",Kumaraswamy Layout
+"1555, 6th Cross Rd, 1st Stage, Kumaraswamy Layout, Bengaluru, Karnataka 560078",4.6,Lohitha Girl's PG,"['Laundry','Security','Non-Veg','women','girls']",Kumaraswamy Layout
+"36-37, 2nd Cross ,Teachers Colony, near Dayananda College, 1st Stage, Bengaluru, Karnataka 560078",4.9,Anagha Girls PG,"['AC','Security','Veg','Laundry','women','girls']",Kumaraswamy Layout
+"Agasthya Arcade, 3rd Cross, near Dayanand Sagar College, 1st Stage, Kumaraswamy Layout, Bengaluru, Karnataka 560078",4.6,Ganapa's Boys PG,"['Laundry','Security','Non-Veg','Men']",Kumaraswamy Layout
+"WH68+5PW, Sagar Boys PG, opposite Dayanand sagar college, Bengaluru, Karnataka 560078",3.8,SAGAR BOYS PG,"['Laundry','Security','Non-Veg','Men']",Kumaraswamy Layout
+"WH58+H2C, 7th Cross Rd, 1st Stage, Kumaraswamy Layout, Bengaluru, Karnataka 560078",4.1,Yashoda Girls PG,"['Laundry','Security','Non-Veg','women','girls']",Kumaraswamy Layout
+"36-37, 2nd Cross ,Teachers Colony, near Dayananda College, 1st Stage, Bengaluru, Karnataka 560078",4.9,Anagha Girls PG,"['AC','Security','Veg','Laundry','women','girls']",Kumaraswamy Layout
+"Sudhakar Readdy, 70, 3rd Cross Rd, Teachers Colony, Kumaraswamy Layout, Bengaluru, Karnataka 560078",4.2,Stanza Living Anamur House,"['Laundry','Security','Non-Veg','Women Men']",Kumaraswamy Layout
 "10, 3rd Cross Rd, Teachers Colony, Kumaraswamy Layout, Bengaluru, Karnataka 560070",3.9,Paradise PG For Boys & Men,"['Security','Veg','Men']",Kumaraswamy Layout
-"metro statio, No 46/5 17th A cross 38th main JP nagar phase 6 Near sindhoor convention hall, behind JP nagar, Bengaluru, Karnataka 560078",4.3,Keerthi sai nest ladies pg,"['Laundry','Security','Non Veg','Women']",JP Nagar
-"1, 17th cross, 33rd Main Rd, JP Nagar Phase 6, J. P. Nagar, Bengaluru, Karnataka 560078",4.1,JP Nagar PG,"['Laundry','Security','Non Veg','Women']",JP Nagar
-"16th Main Rd, KSRTC Layout, 2nd Phase, J. P. Nagar, Bengaluru, Karnataka 560078",4.2,Shirdi sai mansion pg,"['Laundry','Security','Non Veg','Women']",JP Nagar
+"metro statio, No 46/5 17th A cross 38th main JP nagar phase 6 Near sindhoor convention hall, behind JP nagar, Bengaluru, Karnataka 560078",4.3,Keerthi sai nest ladies pg,"['Laundry','Security','Non-Veg','women','girls']",JP Nagar
+"1, 17th cross, 33rd Main Rd, JP Nagar Phase 6, J. P. Nagar, Bengaluru, Karnataka 560078",4.1,JP Nagar PG,"['Laundry','Security','Non-Veg','women','girls']",JP Nagar
+"16th Main Rd, KSRTC Layout, 2nd Phase, J. P. Nagar, Bengaluru, Karnataka 560078",4.2,Shirdi sai mansion pg,"['Laundry','Security','Non-Veg','women','girls']",JP Nagar
 "6th Phase, 23 ,1st main road, JP Nagar, Puttenahalli, Bengaluru, Karnataka 560078",3.9,Skanda Boys PG,"['Security','Veg','Men']",JP Nagar
-"No:8,Behind Essar,65/8/1,Kanakapura Road, JP Nagar 1st Phase, Bengaluru 2nd Cross, Gangadhar Nagar, Opp Sarakki Bus Stop and Metro Piller : 55, Bengaluru, Karnataka 560078",4.5,Flourish Luxury Ladies Pg,"['Laundry','Security','Non Veg','Women']",JP Nagar
-"1061 3rd Cross 7th Main Srinivasnagar, Banashankari 1st Stage, Bengaluru, Karnataka 560050",5,Venkateshwara P G,"['AC','Security','Veg','Laundry','Women']",Srinivasnagar
-"2237, 23rd Cross Rd, next to Karnataka Grameena Bank, Karesandra, Banashankari Stage II, Banashankari, Bengaluru, Karnataka 560070",4.4,The Beehive Hostel Luxury mens PG,"['Laundry','Security','Non Veg','Men']",Karesandra
-"Erica, Eshwara Nagar, Banashankari Temple Ward, Bengaluru, Karnataka 560078",4.3,myroomie-Erica Girls PG / Hoste,"['AC','Security','Veg','Women']",Eshwara Nagar
+"No:8,Behind Essar,65/8/1,Kanakapura Road, JP Nagar 1st Phase, Bengaluru 2nd Cross, Gangadhar Nagar, Opp Sarakki Bus Stop and Metro Piller : 55, Bengaluru, Karnataka 560078",4.5,Flourish Luxury Ladies Pg,"['Laundry','Security','Non-Veg','women','girls']",JP Nagar
+"1061 3rd Cross 7th Main Srinivasnagar, Banashankari 1st Stage, Bengaluru, Karnataka 560050",5,Venkateshwara P G,"['AC','Security','Veg','Laundry','women','girls']",Srinivasnagar
+"2237, 23rd Cross Rd, next to Karnataka Grameena Bank, Karesandra, Banashankari Stage II, Banashankari, Bengaluru, Karnataka 560070",4.4,The Beehive Hostel Luxury mens PG,"['Laundry','Security','Non-Veg','Men']",Karesandra
+"Erica, Eshwara Nagar, Banashankari Temple Ward, Bengaluru, Karnataka 560078",4.3,myroomie-Erica Girls PG / Hoste,"['AC','Security','Veg','women','girls']",Eshwara Nagar
 "Stage, 2 #7, Subramanya Pura Rd, Kadarenahalli, Banashankari, Bengaluru, Karnataka 560070",5,SRI GURURAGHAVENDRA PG for BOYS,"['AC','Security','Veg','Laundry','Men']",Kadarenahalli
 "#5, 3rd and 4th cross Kumarswamy layout 1st stage 70meters from dayananda Sagar Collage, Bengaluru, Karnataka 560070",4.8,Pg ACCOMMODATION for boys,"['AC','Security','Veg','Laundry','Men']",Kumaraswamy Layout
-"WGJR+9HR, Hoysala P.G. hostel Karnataka, 2nd Phase, [no name], Banashankari, Bengaluru, Karnataka 560085",4.4,Hoysala P.G. Hostel,"['Laundry','Security','Non Veg','Men']",Banashanakri
+"WGJR+9HR, Hoysala P.G. hostel Karnataka, 2nd Phase, [no name], Banashankari, Bengaluru, Karnataka 560085",4.4,Hoysala P.G. Hostel,"['Laundry','Security','Non-Veg','Men']",Banashanakri
 "WH83+W88, 22nd Main Rd, Anjanaswamy Layout, Padmanabhanagar, Bengaluru, Karnataka 560070",4.4,BNMIT Boys Hostel,"['AC','Security','Veg','Men']",Padmanabhanagar
-"623/9, 1st B Main Rd, 7th Block West, 7th Block, Jayanagar, Bengaluru, Karnataka 560070",3.9,White House Women's Residence,"['Security','Veg','Women']",Jayanagar
-"177/B, 1/1 GF, 22nd Cross, 7th B Main Rd, Jayanagar 3rd Block, Jayanagar, Bengaluru, Karnataka 560011",4.4,Keerthi PG For Ladies,"['Laundry','Security','Non Veg','Women']",Jayanagar
-"208, 7th Main Rd, 4th Block, Jayanagar, Bengaluru, Karnataka 560011",4.3,Jayanthi Luxury PG for Girl,"['AC','Security','Veg','Women']",Jayanagar
-"626, 1st Cross Rd, Jayanagar 6th Block, Jayanagar, Bengaluru, Karnataka 560070",4.4,Durga PG & Hostel,"['Laundry','Security','Non Veg','Women']",Jayanagar
+"623/9, 1st B Main Rd, 7th Block West, 7th Block, Jayanagar, Bengaluru, Karnataka 560070",3.9,White House Women's Residence,"['Security','Veg','women','girls']",Jayanagar
+"177/B, 1/1 GF, 22nd Cross, 7th B Main Rd, Jayanagar 3rd Block, Jayanagar, Bengaluru, Karnataka 560011",4.4,Keerthi PG For Ladies,"['Laundry','Security','Non-Veg','women','girls']",Jayanagar
+"208, 7th Main Rd, 4th Block, Jayanagar, Bengaluru, Karnataka 560011",4.3,Jayanthi Luxury PG for Girl,"['AC','Security','Veg','women','girls']",Jayanagar
+"626, 1st Cross Rd, Jayanagar 6th Block, Jayanagar, Bengaluru, Karnataka 560070",4.4,Durga PG & Hostel,"['Laundry','Security','Non-Veg','women','girls']",Jayanagar
 "No. 3475 6th Cross, Manjunath Nagar Raghuvanalli, Kanakapura Road",4,Rajmahal Pg,"['AC','Security','Veg','Men']",Raghuvanahalli
-"No 1233/1 Surya Prema Appartment, 4th Floor, 1st Cross Manjunatha Nagara,Raghunalli",4.2,Nandana Organics Pg,"['Laundry','Security','Non Veg','Men']",Raghuvanahalli
+"No 1233/1 Surya Prema Appartment, 4th Floor, 1st Cross Manjunatha Nagara,Raghunalli",4.2,Nandana Organics Pg,"['Laundry','Security','Non-Veg','Men']",Raghuvanahalli
 "No.10, Kanakpura Main Road, Raghunalli",4.1,SMP Paying Guest,"['AC','Security','Veg','Men']",Raghuvanahalli
 No. 1738(Near Kumaraswamy Layout Bus Stop and Sagar Hospital and Dayananda Sagar College),4,Atithi Boys Pg,"['AC','Security','Veg','Men']",Kumaraswamy Layout
-"No 56-163-08, Gangadhar Nagar, Jp Nagar (Opp Sarakki Bus Stop Metro Pillar No 55)",4.3,Flourish Paying Guest For,"['Laundry','Security','Non Veg','Women']",JP Nagar
-"No 92, 4th Cross, Teachers Colony,Kumaraswamy Layout(Near Dayanand Sagar College)",4.5,RN Boys Pg,"['Laundry','Security','Non Veg','Men']",Kumaraswamy Layout
+"No 56-163-08, Gangadhar Nagar, Jp Nagar (Opp Sarakki Bus Stop Metro Pillar No 55)",4.3,Flourish Paying Guest For,"['Laundry','Security','Non-Veg','women','girls']",JP Nagar
+"No 92, 4th Cross, Teachers Colony,Kumaraswamy Layout(Near Dayanand Sagar College)",4.5,RN Boys Pg,"['Laundry','Security','Non-Veg','Men']",Kumaraswamy Layout
 "No 185, SSTowers,Kanakapura Road,Jp Nagar(Opposite Sarakki Bus Stop,Near Pillar No 55)",3.7,S S Paying Guest For Men,"['Security','Veg','Men']",JP Nagar
 "No 23, Asta Lakshmi Layout, 1st Main Road, Puttenahalli, Jp Nagar 6th Phase (Near Inchara Hotel)",4,Skanda PG,"['AC','Security','Veg','Men']",JP Nagar
-"G S Apartment, Kembhathalli Road, Gottigere(Behind Body and Beauty Wellness Center)",4,G S PG,"['AC','Security','Veg','Women']",Gottigere
-"NO 301 G R Queens Ambar, Omkar Nagar 1st Cross Arekare, Hulimavu",4,Stay Safe PG,"['AC','Security','Veg','Women']",Hulimavu
-"No. 9/10, 2nd Main, RBI Layaout, Vinayaka School Arch, Jp Nagar 7th Phase",4,SR2 Galaxy PG Girls,"['AC','Security','Veg','Women']",JP Nagar
-"No.102, LIGH, 2nd Main, 2nd Stage, Kengeri Satelite Town(Near Hoysala Circle)",4.3,Sai Sthri Raksha Ladies Pg,"['Laundry','Security','Non Veg','Women']",Kengeri
-"No 24, 1st Cross BHEL Layout, Rajarajeshwari Nagar(Near Global Tech Park Front Gate and R V College Of Engineering)",4.5,Good Lands Luxury Pg,"['Laundry','Security','Non Veg','Women']",Rajarajeshwari Nagar
-"No 7, 1st Main Outerring RoadKengeri Main Road, Kengeri Satelite Town(Opposite to Krishna Grand Hotel)",4.7,Sri Sai Residence For Ladies,"['AC','Security','Veg','Laundry','Women']",Kengeri
-"No.468 Global Bulding, 3rd Cross, Global Village Main Road, R V Road",4,Sri Sai Ram Ladies & Gents PG,"['Laundry','Security','Non Veg','Women Men']",RV Road
-"No.1, 1st Main, 3rd Cross, Kengeri Satellite Town, Kengeri",3.4,Shree Raksha Paying Guest,"['Security','Veg','Women']",Kengeri
+"G S Apartment, Kembhathalli Road, Gottigere(Behind Body and Beauty Wellness Center)",4,G S PG,"['AC','Security','Veg','women','girls']",Gottigere
+"NO 301 G R Queens Ambar, Omkar Nagar 1st Cross Arekare, Hulimavu",4,Stay Safe PG,"['AC','Security','Veg','women','girls']",Hulimavu
+"No. 9/10, 2nd Main, RBI Layaout, Vinayaka School Arch, Jp Nagar 7th Phase",4,SR2 Galaxy PG Girls,"['AC','Security','Veg','women','girls']",JP Nagar
+"No.102, LIGH, 2nd Main, 2nd Stage, Kengeri Satelite Town(Near Hoysala Circle)",4.3,Sai Sthri Raksha Ladies Pg,"['Laundry','Security','Non-Veg','women','girls']",Kengeri
+"No 24, 1st Cross BHEL Layout, Rajarajeshwari Nagar(Near Global Tech Park Front Gate and R V College Of Engineering)",4.5,Good Lands Luxury Pg,"['Laundry','Security','Non-Veg','women','girls']",Rajarajeshwari Nagar
+"No 7, 1st Main Outerring RoadKengeri Main Road, Kengeri Satelite Town(Opposite to Krishna Grand Hotel)",4.7,Sri Sai Residence For Ladies,"['AC','Security','Veg','Laundry','women','girls']",Kengeri
+"No.468 Global Bulding, 3rd Cross, Global Village Main Road, R V Road",4,Sri Sai Ram Ladies & Gents PG,"['Laundry','Security','Non-Veg','Women Men']",RV Road
+"No.1, 1st Main, 3rd Cross, Kengeri Satellite Town, Kengeri",3.4,Shree Raksha Paying Guest,"['Security','Veg','women','girls']",Kengeri
 "No 650D, BEML ROAD, Rajarajeshwari Nagar(Above Hyderabadi Biriyani Resturant and BEML COMPLEX)",3.8,Hema PG For Men and Women,"['Security','Veg','Women Men']",Rajarajeshwari Nagar
-"No 73/732, M R Complex, 14th Main Road, Kumaraswamy Layout(Near Police Station)",3.4,Cloud 9 Pg,"['Security','Veg','Women']",Kumaraswamy Layout
+"No 73/732, M R Complex, 14th Main Road, Kumaraswamy Layout(Near Police Station)",3.4,Cloud 9 Pg,"['Security','Veg','women','girls']",Kumaraswamy Layout
 "597 Police Station Rd, 2nd phase Hosakerehalli LAyout, Banashankari 3rd stage, Banashankari",3,Akshaya PG for Men's,"['Security','Veg','Men']",Hosakerehalli Layout
-"83, 6th A Cross Rd, behind Sri Hari Kalyana Mantapa, Kaveri Nagar, Banagirinagara, Banashankari 3rd Stage, Banashankari",4.2,Adya Mansions (Best PG for Ladies),"['Laundry','Security','Non Veg','Women']",Banagirinagar
-"No 836, 7th Main, KSRTC Layout, Jp Nagar 2nd Phase(Beside Jp Nagar Congress Office)",4.5,Vbs Pg For Gents,"['Laundry','Security','Non Veg','Men']",JP Nagar
-"No 44, 11th A Main, 13th Cross, Jayanagar 5th Block (Near Ragavandra Temple)",4.5,SHIRIDI SAI GENTS PG,"['Laundry','Security','Non Veg','Men']",Jayanagar
-"No 456, Samrat Layout Arekere Bannerghatta Road, Arekere Gate",4.9,V B R LADIES P G,"['AC','Security','Veg','Laundry','Women']",Arekere Gate
-"No18/19, 2nd Main Vijayshree Layout, Bannerghatta Road",4.8,SLN Homes Ladies Hostel,"['AC','Security','Veg','Laundry','Women']",Bannerghatta Road
-"No.32, Arvind Complex, Kanakapura Main Road, 1st Phase, Jp Nagar",3.9,Aravind Modern Nest PG,"['Security','Veg','Women']",JP Nagar
-"No. 224/54, 45th Cross, 8th Block, Jayanagar 8th Block",4.1,Sree Chakra Paying Guest Accommodation,"['Laundry','Security','Non Veg','Women']",Jayanagar
+"83, 6th A Cross Rd, behind Sri Hari Kalyana Mantapa, Kaveri Nagar, Banagirinagara, Banashankari 3rd Stage, Banashankari",4.2,Adya Mansions (Best PG for Ladies),"['Laundry','Security','Non-Veg','women','girls']",Banagirinagar
+"No 836, 7th Main, KSRTC Layout, Jp Nagar 2nd Phase(Beside Jp Nagar Congress Office)",4.5,Vbs Pg For Gents,"['Laundry','Security','Non-Veg','Men']",JP Nagar
+"No 44, 11th A Main, 13th Cross, Jayanagar 5th Block (Near Ragavandra Temple)",4.5,SHIRIDI SAI GENTS PG,"['Laundry','Security','Non-Veg','Men']",Jayanagar
+"No 456, Samrat Layout Arekere Bannerghatta Road, Arekere Gate",4.9,V B R LADIES P G,"['AC','Security','Veg','Laundry','women','girls']",Arekere Gate
+"No18/19, 2nd Main Vijayshree Layout, Bannerghatta Road",4.8,SLN Homes Ladies Hostel,"['AC','Security','Veg','Laundry','women','girls']",Bannerghatta Road
+"No.32, Arvind Complex, Kanakapura Main Road, 1st Phase, Jp Nagar",3.9,Aravind Modern Nest PG,"['Security','Veg','women','girls']",JP Nagar
+"No. 224/54, 45th Cross, 8th Block, Jayanagar 8th Block",4.1,Sree Chakra Paying Guest Accommodation,"['Laundry','Security','Non-Veg','women','girls']",Jayanagar
 "H.No.6, 20th Cross, 24th Main Road, Jp Nagar 5th Phase",4.6,Shree Vigneshwara Luxuries,"['AC','Security','Veg','Men']",JP Nagar
 "No 1/A, 18th Cross, 23rd Main, Jp Nagar 5th Phase, Bangalore",4.9,Sri Vinayaka PG,"['AC','Security','Veg','Laundry','Men']",JP Nagar
-"No 19, 17th Cross, 26th B Main, Murthappa Garden, Jp Nagar 6th Phase",4.1,Lakshmi Villas,"['Laundry','Security','Non Veg','Women']",JP Nagar
-"No 701, Sri Ram Pg For Gents, Jayanagar 5th Block(Near Ragavendra Swami Matha)",3.7,Sri Ram Sri Lakshmi Pg,"['Security','Veg','Women']",Jayanagar
-"No 18, 5th A Cross, 24th Main, JP Nagar, 2nd Phase, Jp Nagar(Near R V Dental Colleage)",4,Friends Pg,"['Laundry','Security','Non Veg','Women']",JP Nagar
+"No 19, 17th Cross, 26th B Main, Murthappa Garden, Jp Nagar 6th Phase",4.1,Lakshmi Villas,"['Laundry','Security','Non-Veg','women','girls']",JP Nagar
+"No 701, Sri Ram Pg For Gents, Jayanagar 5th Block(Near Ragavendra Swami Matha)",3.7,Sri Ram Sri Lakshmi Pg,"['Security','Veg','women','girls']",Jayanagar
+"No 18, 5th A Cross, 24th Main, JP Nagar, 2nd Phase, Jp Nagar(Near R V Dental Colleage)",4,Friends Pg,"['Laundry','Security','Non-Veg','women','girls']",JP Nagar
 "# 5, Sukh Mohan Villa, Apartment Road, 5th Phase, Jp Nagar",3.3,Mohan Vatika,"['Security','Veg','Men']",JP Nagar
-Karnataka Paying Guest(Near Inchara Hotel),3.8,Karnataka Paying Guest,"['Security','Veg','Women']",JP Nagar
-"No 7, 30th Main, Jp Nagar 1st Phase(Opp Oxford School and Behind RV Dental College)",4.4,Shri Shyam Vaishnavi Gents P G,"['Laundry','Security','Non Veg','Men']",JP Nagar
+Karnataka Paying Guest(Near Inchara Hotel),3.8,Karnataka Paying Guest,"['Security','Veg','women','girls']",JP Nagar
+"No 7, 30th Main, Jp Nagar 1st Phase(Opp Oxford School and Behind RV Dental College)",4.4,Shri Shyam Vaishnavi Gents P G,"['Laundry','Security','Non-Veg','Men']",JP Nagar
 "#86 15th Cross, 15th Main J P Nagar 2nd Phase, Jp Nagar(Near Vet College)",3.5,MGR & Amaravathi Paying Guest,"['Security','Veg','Men']",JP Nagar
-"No 13/1, 26 Th Main, 17th Cross, Jp Nagar 6th Phase(Near Inchara Hotel)",3.7,Aarush Ladies Pg,"['Security','Veg','Women']",JP Nagar
+"No 13/1, 26 Th Main, 17th Cross, Jp Nagar 6th Phase(Near Inchara Hotel)",3.7,Aarush Ladies Pg,"['Security','Veg','women','girls']",JP Nagar
 "No 129, 3rd Cross, Pai Layout, Bannerughatta Road, Hulimavu(Near Cafe Kabana) 
 
-",4.7,Anagha Ladies PG,"['AC','Security','Veg','Laundry','Women']",Hulimavu
+",4.7,Anagha Ladies PG,"['AC','Security','Veg','Laundry','women','girls']",Hulimavu
 "Dev Residency No.338, Venugopal Reddy Layout, 1st Cross, 2nd Main Arekere, Bannerghatta Road, Bangalore - 560076 (Behind Meenakshi Residency Apartment)",4.9,S A PG FOR GENTS,"['AC','Security','Veg','Laundry','Men']",Bannerghatta Road
-"3286/A, KR Main Road, 17th Cross Rd, Banashankari Stage II, Banashankari 2nd Stage, Bangalore - 560070 (Near Akshya Hospital)",4.2,Swathi Luxuries Pg For Women,"['Laundry','Security','Non Veg','Women']",Banashanakri
-"No.10-4, 29th Main, BTM Layout 2nd Stage, bangalore - 560076 (Near Vijaya Bank)",4.9,Star PG,"['AC','Security','Veg','Laundry','Women']",BTM Layout
+"3286/A, KR Main Road, 17th Cross Rd, Banashankari Stage II, Banashankari 2nd Stage, Bangalore - 560070 (Near Akshya Hospital)",4.2,Swathi Luxuries Pg For Women,"['Laundry','Security','Non-Veg','women','girls']",Banashanakri
+"No.10-4, 29th Main, BTM Layout 2nd Stage, bangalore - 560076 (Near Vijaya Bank)",4.9,Star PG,"['AC','Security','Veg','Laundry','women','girls']",BTM Layout
 "No 11, 4th A Main, MS Palya, BTM Layout 2nd Stage, Bangalore - 560076 (Behind Vega City Mall)",3.6,S T R Pg For Gents,"['Security','Veg','Men']",BTM Layout
-"SLV RAGIGUDDA PG FOR LADIES No.1991, E Cross, Jayanagar 9th Block, Bangalore - 560069 (SLV Raggiguda Hotel, Raggiguda Temple)",3.6,Slv Ragigudda Ladies Pg,"['Security','Veg','Women']",Jayanagar
+"SLV RAGIGUDDA PG FOR LADIES No.1991, E Cross, Jayanagar 9th Block, Bangalore - 560069 (SLV Raggiguda Hotel, Raggiguda Temple)",3.6,Slv Ragigudda Ladies Pg,"['Security','Veg','women','girls']",Jayanagar
 "No 240/1, 3rd Main, 2nd Cross Byrappa Block, Thyagaraja Nagar, Bangalore - 560004 (Shanimathma Temple)",3.1,Vinayaka PG Accommodation,"['Security','Veg','Men']",Thyagaraja Nagar
-"Amar Nivas, No.33/93, 5th Main, Jayanagar 5th Block, Bangalore - 560041 (Near Sangam Signal)",3.9,Sri Nimishamba Ladies Pg,"['Security','Veg','Women']",Jayanagar
-"AVR Arcade, #922, 28th Main, East End Road, Jayanagar 9th Block, Bangalore - 560069 (Near Karnataka Bank)",4.5,Shree Bhargavi Luxurious PG,"['Laundry','Security','Non Veg','Women']",Jayanagar
-"House No 06 Kmaashi Bharma Ppa, 5th Main Road, Girinagar, Banashankari 3rd Stage, bangalore - 560085 (Above Pb Varior Bakery, Near Avalahalli Bda Park Bus Stop)",4.9,Castle Ladies PG,"['AC','Security','Veg','Laundry','Women']",Girinagar
-"Door No 17, Patalama Temple Road, Basavanagudi, Bangalore - 560004 (Opst Pai Conversion Hall)",4.7,Chegus Serene,"['AC','Security','Veg','Laundry','Women']",Basavanagudi
-"No 177/B, 1/1, 7th B Main, 3rd Block, Jayanagar 3rd Block, Bangalore - 560011 (Next to Menaka Card, Opp to N M R K V College.)",4.4,KEERTHI LADIES PG,"['Laundry','Security','Non Veg','Women']",Jayanagar
-"No 1626, 40th A Cross 18th Main Road, Jayanagar 9th Block, Bangalore - 560069 (Near Jain College)",4.9,Sai Eshwar Pg For Ladies,"['AC','Security','Veg','Laundry','Women']",Jayanagar
+"Amar Nivas, No.33/93, 5th Main, Jayanagar 5th Block, Bangalore - 560041 (Near Sangam Signal)",3.9,Sri Nimishamba Ladies Pg,"['Security','Veg','women','girls']",Jayanagar
+"AVR Arcade, #922, 28th Main, East End Road, Jayanagar 9th Block, Bangalore - 560069 (Near Karnataka Bank)",4.5,Shree Bhargavi Luxurious PG,"['Laundry','Security','Non-Veg','women','girls']",Jayanagar
+"House No 06 Kmaashi Bharma Ppa, 5th Main Road, Girinagar, Banashankari 3rd Stage, bangalore - 560085 (Above Pb Varior Bakery, Near Avalahalli Bda Park Bus Stop)",4.9,Castle Ladies PG,"['AC','Security','Veg','Laundry','women','girls']",Girinagar
+"Door No 17, Patalama Temple Road, Basavanagudi, Bangalore - 560004 (Opst Pai Conversion Hall)",4.7,Chegus Serene,"['AC','Security','Veg','Laundry','women','girls']",Basavanagudi
+"No 177/B, 1/1, 7th B Main, 3rd Block, Jayanagar 3rd Block, Bangalore - 560011 (Next to Menaka Card, Opp to N M R K V College.)",4.4,KEERTHI LADIES PG,"['Laundry','Security','Non-Veg','women','girls']",Jayanagar
+"No 1626, 40th A Cross 18th Main Road, Jayanagar 9th Block, Bangalore - 560069 (Near Jain College)",4.9,Sai Eshwar Pg For Ladies,"['AC','Security','Veg','Laundry','women','girls']",Jayanagar

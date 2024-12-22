@@ -34,7 +34,7 @@ def recommend_hotel(location, description):
         vector = temp2_set.intersection(filtered_set)
         cos.append(len(vector))
     country['similarity']=cos
-    country = country.sort_values(by='similarity', ascending=False)
+    country = country.sort_values(by='similarity', ascending=True)
     # country.drop_duplicates(subset='Hostel_Name', keep='first', inplace=True)
     country.sort_values('rating', ascending=False, inplace=True)
     country.reset_index(inplace=True)
